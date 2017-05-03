@@ -26,7 +26,7 @@ function load() {
             elementCreator("questionId", "P", "questionId animated bounceInLeft sg-text-bit sg-text-bit--not-responsive sg-text-bit--small");
             elementCreator("question", "P", "question animated bounceInLeft sg-text-bit sg-text-bit--not-responsive sg-text-bit--small"); //Dynamically creating elements from custom function (js/elementCreators.js)
             var questionIdLabels = document.getElementsByClassName("questionId")[i];
-            var questionLabels = document.getElementsByClassName("question")[i];
+            var questionLabels = document.getElementsByClassName("question")[i+1];
 
             questionIdLabels.innerHTML = "Pytanie " + actual_JSON.questions[i].id; //Shows questions number
             questionLabels.innerHTML = actual_JSON.questions[i].question; //Shows the questions description
