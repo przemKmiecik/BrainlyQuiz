@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brainly - Quiz</title>
+    <meta name="description" content="Brainly - Quiz">
+    <meta name="author" content="Przemyslaw Kmiecik">
+    <link href="https://styleguide.brainly.com/77.2.0/style-guide.css" rel="stylesheet" />
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav>
+        <div id="counter"></div>
+    </nav>
+</header>
+
+<body>
+    <main id="main_content">
+        
+        <div id="intro">
+            <h1 class="sg-text-bit animated fadeInDown">
+      Quiz name
+    </h1>
+            <img src="https://styleguide.brainly.com/images/logos/brainly-761d75d6ea.svg" class="logo animated fadeIn" />
+            
+            <button onclick="countdown()">Start Quiz</button>
+            <div class="additional">
+                <svg class="sg-icon">
+                    <use xlink:href="#icon-counter"></use>
+                </svg>
+                <p class="question">1 minute</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="js/elementCreators.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="https://styleguide.brainly.com/images/icons-5459066133.js"></script>
+</body>
+
+</html>
